@@ -86,22 +86,7 @@ header .apply-container {
     display: none;
 }
 
-@media screen and (min-width: 750px) {
-    header { 
-        padding: 30px 60px 60px;
-    }
-    main {
-        padding: 30px 60px;
-    }
 
-    .mobile-hide {
-      display: block;
-    }
-
-    .desktop-hide {
-        display: none;
-    }
-}
 
 main h4.red-label {
     width: 10rem;
@@ -142,11 +127,50 @@ h4.blue-label {
     gap: 20px;
     margin: 30px 0;
     justify-content: center;
+    flex-direction: column;
+}
+
+.process-container .chevron-icon {
+    display: none;
+}
+
+.process-container .text-image-container img {
+    height: 80px;
 }
 
 .text-image-container {
     display: flex;
     flex-direction: column;
+}
+
+.text-image-container p {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 750px) {
+    header { 
+        padding: 30px 60px 60px;
+    }
+    main {
+        padding: 30px 60px;
+    }
+
+    .mobile-hide {
+      display: block;
+    }
+
+    .desktop-hide {
+        display: none;
+    }
+    .process-container .chevron-icon {
+        display: block;
+    }
+
+    .process-container {
+      flex-direction: row;
+    }
+
+
 }
 
 
