@@ -169,12 +169,12 @@ h4.blue-label {
 .apply-now-body {
     background-color: #011b60;
     color: white;
-    padding: 0.5rem 7rem;
-    border-radius: 15px;
+    padding: 0.5rem 6rem;
+    border-radius: 35px;
     text-decoration: none;
     margin: 0 auto;
     text-align: center;
-    width: 10rem;
+    width: 6rem;
     display: block;
 
 }
@@ -196,6 +196,8 @@ h4.blue-label {
     flex-direction: column;
 }
 
+
+
 .process-container .chevron-icon {
     display: none;
 }
@@ -214,7 +216,9 @@ h4.blue-label {
 }
 
 .text-image-container p {
-    font-size: 14px;
+    font-size: 15px;
+    font-family: "Switzer-regular", Arial, Helvetica, sans-serif;
+
 }
 
 @media screen and (min-width: 750px) {
@@ -244,6 +248,12 @@ h4.blue-label {
 
     .process-container {
       flex-direction: row;
+    }
+
+    .process-container p {
+      font-family: "Switzer-black", Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      font-weight: 600;
     }
 
     .korea-uk-140-logo {
