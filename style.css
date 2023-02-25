@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'hangang';
+    src: url('./assets/fonts/SeoulHangangB.ttf');
+
+}
+
+@font-face {
+    font-family: 'Switzer-black';
+    src: url('./assets/fonts/Switzer-Black.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Switzer-Regular';
+    src: url('./assets/fonts/Switzer-Regular.otf');
+    font-weight: normal;
+}
+
+header {
+    background-color: #011b60;
+    color: white;
+    padding: 30px;
+}
+
+@media screen and (min-width: 750px) {
+    header { 
+        padding: 30px 60px 60px;
+    }
+    main {
+        padding: 0 60px;
+    }
+}
+
+body {
+    font-family: "Switzer-regular", Arial, sans-serif;
+    font-weight: normal;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.apply-btn {
+    background: white;
+    color: #ce2a37;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+
+.red-label {
+    background: #ce2a37;
+    color: white;
+    padding: 5px;
+    border-radius: 0 20px 0 0;
+}
+
+header .apply-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.text-korean {
+    font-family: 'hangang';
+}
+
+.header-title-block {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.header-50-50-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
