@@ -18,17 +18,14 @@
 header {
     background-color: #011b60;
     color: white;
-    padding: 30px;
+    padding: 30px 20px;
 }
 
-@media screen and (min-width: 750px) {
-    header { 
-        padding: 30px 60px 60px;
-    }
-    main {
-        padding: 0 60px;
-    }
+main {
+    padding: 30px 20px;
 }
+
+
 
 body {
     font-family: "Switzer-regular", Arial, sans-serif;
@@ -82,6 +79,27 @@ header .apply-container {
 .header-50-50-container {
     display: flex;
     justify-content: space-between;
+}
+
+.mobile-hide {
+    display: none;
+}
+
+@media screen and (min-width: 750px) {
+    header { 
+        padding: 30px 60px 60px;
+    }
+    main {
+        padding: 0 60px;
+    }
+
+    .mobile-hide {
+      display: block;
+    }
+
+    .desktop-hide {
+        display: none;
+    }
 }
 
 
