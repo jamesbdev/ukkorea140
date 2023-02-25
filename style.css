@@ -15,40 +15,68 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Switzer-Light';
+    src: url('./assets/fonts/Switzer-Light.otf');
+    font-weight: normal;
+}
+
 header {
     background-color: #011b60;
     color: white;
-    padding: 30px 20px;
+    padding: 10px 30px 10px 40px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 main {
     padding: 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    font-family: "Switzer-Light", Arial, sans-serif;
 }
 
-
+.header-notice {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    margin-top: 5px;
+}
 
 body {
     font-family: "Switzer-regular", Arial, sans-serif;
     font-weight: normal;
 }
 
+.korea-uk-140-logo {
+    height: 75px;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
+    margin: 0 0 12px;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
     gap: 10px;
+    margin-top: 40px;
+}
+
+nav ul li {
+    margin-left: 15px;
 }
 
 .apply-btn {
     background: white;
     color: #ce2a37;
     text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 20px;
+    padding: 6px 40px;
+    border-radius: 34px;
+    font-size: 20px;
+    margin-left: 20px;
 }
 
 
@@ -56,25 +84,62 @@ nav ul {
 .red-label {
     background: #ce2a37;
     color: white;
-    padding: 5px;
+    padding: 1px 5px 1px 3px;
     border-radius: 0 20px 0 0;
 }
 
 header .apply-container {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   align-items: center;
   flex-direction: row;
 }
 
 .text-korean {
     font-family: 'hangang';
+    font-weight: lighter;
+}
+
+h3.text-korean {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.header-title-image {
+    margin-top: 15px;
+}
+
+.header-subtitle {
+    font-size: 16px;
+    font-family: 'Switzer-Light', Arial, sans-serif;
+    margin: 5px 0 25px;
+    width: 75%;
+}
+.apply-container p {
+  font-size: 22px;
+  margin: 0
+
+}
+
+
+
+
+table th {
+    text-align: left;
+}
+
+.header-title-block h2 {
+  margin: 0;
+  font-size: 22px;
 }
 
 .header-title-block {
   display: flex;
   gap: 5px;
   align-items: center;
+}
+
+.header-title-block img:first-of-type {
+    margin-left: 10px;
 }
 
 .header-50-50-container {
@@ -119,6 +184,7 @@ h4.blue-label {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .process-container {
@@ -132,6 +198,10 @@ h4.blue-label {
 
 .process-container .chevron-icon {
     display: none;
+}
+
+.header-title-image-mobile {
+    margin-top: 10px
 }
 
 .process-container .text-image-container img {
@@ -149,7 +219,7 @@ h4.blue-label {
 
 @media screen and (min-width: 750px) {
     header { 
-        padding: 30px 60px 60px;
+        padding: 15px 60px 20px;
     }
     main {
         padding: 30px 60px;
@@ -162,6 +232,12 @@ h4.blue-label {
     .desktop-hide {
         display: none;
     }
+
+    .header-subtitle {
+        font-size: 20px;
+        width: 100%;
+    } 
+
     .process-container .chevron-icon {
         display: block;
     }
@@ -170,7 +246,27 @@ h4.blue-label {
       flex-direction: row;
     }
 
+    .korea-uk-140-logo {
+        height: 60px;
+    }
+
+    .apply-container p {
+      margin: 14px 0 0;
+    }
+
+ 
+
+    .header-top {
+        margin: 0 0 30px;
+    }
+
+    nav ul { 
+      margin-top: 26px;
+    }
+
 
 }
+
+
 
 
