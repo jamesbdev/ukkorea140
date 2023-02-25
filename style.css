@@ -90,7 +90,7 @@ header .apply-container {
         padding: 30px 60px 60px;
     }
     main {
-        padding: 0 60px;
+        padding: 30px 60px;
     }
 
     .mobile-hide {
@@ -102,5 +102,25 @@ header .apply-container {
     }
 }
 
+main h4.red-label {
+    width: 10rem;
+}
+
+.blue-label {
+    background-color: #011b60;
+    width: 10rem;
+    color: white;
+    padding: 5px;
+    border-radius: 0 20px 0 0;
+}
+
+.apply-now-body {
+    background-color: #011b60;
+    color: white;
+    padding: 1rem 7rem;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
 
 
