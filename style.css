@@ -64,6 +64,7 @@ header .apply-container {
   display: flex;
   gap: 20px;
   align-items: center;
+  flex-direction: row;
 }
 
 .text-korean {
@@ -128,7 +129,7 @@ h4.blue-label {
 
 }
 
-.apply-container {
+.apply-btn-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
