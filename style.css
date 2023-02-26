@@ -29,6 +29,12 @@ header {
     margin: 0 auto;
 }
 
+header .contact-us-link {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
 main {
     padding: 30px 20px;
     max-width: 900px;
@@ -310,7 +316,10 @@ main p {
 }
 
 
-
+.contact-us-link {
+    color: black;
+    font-weight: 600;
+}
 
 @media screen and (min-width: 750px) {
 
@@ -318,7 +327,7 @@ main p {
         margin: 40px 0 0;
     }
     header { 
-        padding: 15px 110px 20px;
+        padding: 15px 110px 20px 110px;
     }
     main {
         padding: 30px 110px;
