@@ -394,7 +394,7 @@ main p {
     footer {
         max-width: 900px;
         margin: 0 auto;
-        background: #011b60;
+        background-color: #011b60;
         color: white;
         padding: 20px 60px;
     }
