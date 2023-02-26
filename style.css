@@ -155,8 +155,12 @@ h3.text-korean {
 table th {
     text-align: left;
     font-size: 22px;
+    width: 40px;
 }
 
+.middle-division {
+    width: 25px;
+}
 table .last-row {
     position: relative;
     bottom: 10px;
@@ -305,7 +309,7 @@ h4.blue-label {
     bottom: 1rem;
 }
 
-header nav a:visited, footer nav a:visited {
+header nav a:visited, footer nav a:visited, header nav a {
     color: white;
     text-decoration: none;
 }
