@@ -21,12 +21,27 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Nanum-Gothic';
+    src: url('./assets/fonts/NanumGothic.otf');
+    font-weight: normal;
+}
+
+main.korean-text .text-korean, main.korean-text {
+    font-family: 'Nanum-Gothic';
+}
+
 header {
     background-color: #011b60;
     color: white;
     padding: 10px 30px 10px 40px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.korean-text .topics ol li {
+    margin-bottom: 10px;
+
 }
 
 header .contact-us-link {
@@ -290,9 +305,23 @@ h4.blue-label {
     bottom: 1rem;
 }
 
+header nav a:visited, footer nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
 footer p {
     text-align: center;
     margin-bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 .description {
