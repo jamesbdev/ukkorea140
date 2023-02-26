@@ -142,6 +142,11 @@ table th {
     font-size: 22px;
 }
 
+table .last-row {
+    position: relative;
+    bottom: 10px;
+}
+
 table td {
     margin: 10px;
     padding: 10px 20px;
@@ -195,7 +200,7 @@ h4.blue-label {
     margin: 0 auto;
     text-align: center;
     display: block;
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
