@@ -82,7 +82,7 @@ body {
 nav ul {
     display: flex;
     list-style-type: none;
-    gap: 15px;
+    gap: 10px;
     margin-top: 40px;
     padding-left: 10px;
 }
@@ -480,6 +480,7 @@ footer .language-link:first-of-type {
 
     nav ul { 
       margin-top: 26px;
+      gap: 15px;
     }
 
 
