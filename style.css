@@ -154,8 +154,14 @@ h3.text-korean {
 
 table th {
     text-align: left;
-    font-size: 22px;
-    width: 40px;
+    font-size: 18px;
+    min-width: 6rem;
+}
+
+.section-dates .deadline-message {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0 0;
 }
 
 .middle-division {
@@ -169,6 +175,7 @@ table .last-row {
 table td {
     margin: 10px;
     padding: 10px 20px;
+    min-width: 5rem;
 }
 
 table .third-prize {
