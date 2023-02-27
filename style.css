@@ -389,6 +389,10 @@ footer {
     color: white;
     padding: 20px 30px 30px;
     max-width: 800px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer nav ul {
@@ -396,6 +400,8 @@ footer nav ul {
     padding-left: 0;
     margin-bottom: 30px;
     gap: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 750px) {
