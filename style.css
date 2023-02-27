@@ -427,11 +427,11 @@ footer .language-link:first-of-type {
     }
 
     footer {
-        max-width: 900px;
+        max-width: 800px;
         margin: 0 auto;
         background-color: #011b60;
         color: white;
-        padding: 20px 60px;
+        padding: 20px 110px;
     }
 
     .mobile-hide {
