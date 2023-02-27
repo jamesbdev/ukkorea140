@@ -15,19 +15,53 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Switzer-Light';
+    src: url('./assets/fonts/Switzer-Light.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Nanum-Gothic';
+    src: url('./assets/fonts/NanumGothic.otf');
+    font-weight: normal;
+}
+
+main.korean-text .text-korean, main.korean-text {
+    font-family: 'Nanum-Gothic';
+}
+
 header {
     background-color: #011b60;
     color: white;
-    padding: 30px;
+    padding: 10px 30px 10px 40px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-@media screen and (min-width: 750px) {
-    header { 
-        padding: 30px 60px 60px;
-    }
-    main {
-        padding: 0 60px;
-    }
+.korean-text .topics ol li {
+    margin-bottom: 10px;
+
+}
+
+header .contact-us-link {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    font-family: "Switzer-Light", Arial, sans-serif;
+}
+
+.header-notice {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    margin-top: 5px;
 }
 
 body {
@@ -35,23 +69,34 @@ body {
     font-weight: normal;
 }
 
+.korea-uk-140-logo {
+    height: 75px;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
+    margin: 0 0 12px;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 15px;
+    margin-top: 40px;
 }
+
+
+
 
 .apply-btn {
     background: white;
     color: #ce2a37;
     text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 20px;
+    padding: 6px 40px;
+    border-radius: 34px;
+    font-size: 20px;
+    margin-left: 20px;
 }
 
 
@@ -59,18 +104,87 @@ nav ul {
 .red-label {
     background: #ce2a37;
     color: white;
-    padding: 5px;
+    padding: 1px 10px 1px 3px;
     border-radius: 0 20px 0 0;
+}
+
+.section-dates .date-label {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.section-dates h4 {
+    margin-bottom: 5px;
+    display: inline;
 }
 
 header .apply-container {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   align-items: center;
+  flex-direction: row;
 }
 
 .text-korean {
     font-family: 'hangang';
+    font-weight: lighter;
+}
+
+h3.text-korean {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.header-title-image {
+    margin-top: 15px;
+}
+
+.header-subtitle {
+    font-size: 16px;
+    font-family: 'Switzer-Light', Arial, sans-serif;
+    margin: 5px 0 25px;
+    width: 75%;
+}
+.apply-container p {
+  font-size: 22px;
+  margin: 0
+
+}
+
+table th {
+    text-align: left;
+    font-size: 18px;
+    min-width: 6rem;
+}
+
+.section-dates .deadline-message {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+.middle-division {
+    width: 25px;
+}
+table .last-row {
+    position: relative;
+    bottom: 10px;
+}
+
+table td {
+    margin: 10px;
+    padding: 10px 20px;
+    min-width: 5rem;
+}
+
+table .third-prize {
+    position: relative;
+    top: 10px;
+}
+
+.header-title-block h2 {
+  margin: 0;
+  font-size: 22px;
 }
 
 .header-title-block {
@@ -79,10 +193,338 @@ header .apply-container {
   align-items: center;
 }
 
+.header-title-block img:first-of-type {
+    margin-left: 10px;
+}
+
 .header-50-50-container {
     display: flex;
     justify-content: space-between;
 }
+
+.mobile-hide {
+    display: none;
+}
+
+.language-links a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.language-links {
+    margin-bottom: 20px;
+}
+
+
+h4.blue-label {
+    background-color: #011b60;
+    display: block;
+    color: white;
+    width: 10rem;
+    padding: 1px 10px 1px 3px;
+    border-radius: 0 20px 0 0;
+}
+
+.apply-now-body {
+    background-color: #011b60;
+    color: white;
+    padding: 0.5rem 6rem;
+    border-radius: 35px;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+
+}
+
+.apply-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.process-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0 0;
+    flex-direction: column;
+    line-height: 15px;
+}
+
+.section-submission-information {
+    margin-top: 30px;
+}
+
+.section-submission-information h4 {
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.section-submission-information ul li {
+    line-height: 28px;
+}
+
+.section-submission-information ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+.process-container .chevron-icon {
+    display: none;
+}
+
+.header-title-image-mobile {
+    margin-top: 10px
+}
+
+.process-container .text-image-container img {
+    height: 130px;
+}
+
+.text-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.process-container .text-image-container p {
+    margin-bottom: 0;
+    max-height: 22px;
+}
+
+.text-image-container p {
+    font-size: 15px;
+    font-family: "Switzer-regular", Arial, Helvetica, sans-serif;
+  
+
+}
+
+.chevron-icon {
+    position: relative;
+    bottom: 1rem;
+}
+
+header nav a:visited, footer nav a:visited, header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.description {
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.description p:first-of-type {
+    margin-top: 0;
+}
+
+main p {
+    line-height: 30px;
+}
+
+.topics ol li {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px; 
+}
+
+.topics ol {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.section-apply h4 {
+    display: inline;
+
+}
+
+
+
+.topics h4 {
+    margin-bottom: 5px;
+    display: inline;
+}
+
+.topics ul li {
+  line-height: 30px;
+}
+
+.process-container p {
+    line-height: normal;
+}
+
+
+.contact-us-link {
+    color: black;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #011b60;
+    color: white;
+    padding: 20px 30px 30px;
+    max-width: 800px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .language-link {
+    margin:0 10px;
+}
+
+footer .language-link:first-of-type {
+    margin-left: 0;
+}
+
+@media screen and (min-width: 750px) {
+
+    section {
+        margin: 40px 0 0;
+    }
+    header { 
+        padding: 15px 110px 20px 110px;
+    }
+    main {
+        padding: 30px 110px;
+        max-width: 800px;
+    }
+
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #011b60;
+        color: white;
+        padding: 20px 60px;
+    }
+
+    .mobile-hide {
+      display: block;
+    }
+
+    .desktop-hide {
+        display: none;
+    }
+
+    .header-subtitle {
+        font-size: 20px;
+        width: 100%;
+    } 
+
+    .process-container .chevron-icon {
+        display: block;
+    }
+
+    .process-container {
+      flex-direction: row;
+    }
+
+    .process-container p {
+      font-family: "Switzer-regular", Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+      max-width: 9rem;
+      margin-bottom: 0;
+    }
+
+    .korea-uk-140-logo {
+        height: 60px;
+    }
+
+    .apply-container p {
+      margin: 14px 0 0;
+    }
+
+ 
+
+    .header-top {
+        margin: 0 0 10px;
+    }
+
+    nav ul { 
+      margin-top: 26px;
+    }
+
+
+}
+
+
+
+.section-application-process h4 {
+    display: inline;
+}
+
+.section-application-process {
+    margin-top: 25px;
+}
+
+.contact-section h4 {
+  display: inline;
+}
+
+.contact-section {
+  margin-top: 70px;
+}
+
+.section-prize h4 {
+    display: inline;
+}
+
+.contact-us-description {
+    margin-top: 0;
+}
+
+.korean-text .contact-us-description {
+    margin-top: 5px;
+}
+
+.apply-btn-container .text-korean {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .header-video-image {
+        display: none;
+    } 
+ 
+}
+
 
 
 
