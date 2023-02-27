@@ -82,13 +82,12 @@ body {
 nav ul {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 15px;
     margin-top: 40px;
 }
 
-nav ul li {
-    margin-left: 15px;
-}
+
+
 
 .apply-btn {
     background: white;
@@ -396,7 +395,7 @@ footer nav ul {
     margin-top: 0;
     padding-left: 0;
     margin-bottom: 30px;
-    gap: 0;
+    gap: 15px;
 }
 
 @media screen and (min-width: 750px) {
