@@ -404,6 +404,14 @@ footer nav ul {
     flex-direction: column;
 }
 
+footer .language-link {
+    margin:0 10px;
+}
+
+footer .language-link:first-of-type {
+    margin-left: 0;
+}
+
 @media screen and (min-width: 750px) {
 
     section {
