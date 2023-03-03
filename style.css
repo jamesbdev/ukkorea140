@@ -155,7 +155,7 @@ h3.text-korean {
 table th {
     text-align: left;
     font-size: 18px;
-    min-width: 5rem;
+    min-width: 4rem;
 }
 
 .section-dates .deadline-message {
