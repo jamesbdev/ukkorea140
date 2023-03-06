@@ -414,6 +414,10 @@ footer .language-link:first-of-type {
 
 @media screen and (min-width: 750px) {
 
+    .korean-embassy-logo p:first-of-type {
+        margin-top: 0;
+    }
+
     section {
         margin: 40px 0 0;
     }
@@ -525,6 +529,8 @@ footer .language-link:first-of-type {
     } 
  
 }
+
+
 
 
 
