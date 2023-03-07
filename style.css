@@ -417,8 +417,15 @@ footer .language-link:first-of-type {
     margin-left: 0;
 }
 
+.korean-embassy-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .korean-embassy-logo p {
     text-align: left;
+    font-size: 11px;
 }
 
 .korean-embassy-logo p:first-of-type {
@@ -429,9 +436,20 @@ footer .language-link:first-of-type {
     margin-top: 10px;
 }
 
+footer .social-media-footer {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding-left: 0;
+}
+
 @media screen and (min-width: 750px) {
 
-
+    .korean-embassy-logo {
+        align-items: center;
+        justify-content: center;
+    }
 
     .korean-embassy-logo p {
         text-align: center;
