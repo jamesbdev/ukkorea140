@@ -1,0 +1,35 @@
+.video-grid-container {
+    display: grid;
+    grid-row-gap: 1rem;
+}
+
+.video-grid-container iframe {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 450px) {
+    .video-grid-container {
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 20px;
+    }  
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .video-grid-container {
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-gap: 20px;
+    }
+}
+
+.header-container {
+    text-align: center;
+}
+
+.header-container h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
