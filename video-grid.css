@@ -1,7 +1,9 @@
+
+
 .video-grid-container {
     display: grid;
     grid-row-gap: 1rem;
-}
+} 
 
 .video-grid-container iframe {
     width: 100%;
@@ -21,6 +23,11 @@
     .video-grid-container {
         grid-template-columns: 1fr 1fr 1fr; 
         grid-gap: 20px;
+        text-align: center;
+    }
+    .header-date-container {
+        display: flex;
+        gap: 2rem;
     }
 }
 
@@ -31,5 +38,20 @@
 .header-container h2 {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.header-date-container p {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.channel-link {
+    text-align: right;
+
+}
+
+.channel-link a:active, .channel-link a:visited, .channel-link a {
+    color: black;
 }
 
