@@ -109,6 +109,18 @@ nav ul {
     border-radius: 0 20px 0 0;
 }
 
+.red-text {
+  color: #ce2a37;
+  font-weight: bold;
+  font-family: 'Switzer-black';
+}
+
+.blue-text {
+    color: #011b60;
+    font-weight: bold; 
+    font-family: 'Switzer-black';
+}
+
 .section-dates .date-label {
     font-size: 22px;
     font-weight: 600;
@@ -566,6 +578,18 @@ footer .social-media-footer {
         display: none;
     } 
  
+}
+
+.header-container ul {
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+@media (min-width: 750px) {
+    .header-container ul {
+        font-size: 16px;
+    }
 }
 
 
