@@ -49,6 +49,10 @@
     font-weight: normal;
 }
 
+.header-date-container {
+    margin-top: 1rem;
+}
+
 .header-date-container p {
     font-size: 22px;
     margin-top: 0;
