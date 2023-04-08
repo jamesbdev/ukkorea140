@@ -1,52 +1,141 @@
 .social-media-container {
     display: flex;
     flex-direction: column;
-}
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}   
 
 .winner-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.winner-container:last-of-type {
+    margin-bottom: 2rem;
 }
 
 .red-label {
     display: inline-block;
 }
 
+.title-content {
+    text-align: center;
+}
+
+.winner-info-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-self: center;
+}
+
+.font-regular {
+    font-family: 'Switzer-Regular';
+}
+
+.winner-information h5 {
+    font-family: 'Switzer-Regular';
+    font-size: 15px;
+}
+
+.winner-information h5:last-of-type {
+    margin-bottom: 0;
+}
+
+.thanks-message {
+    font-size: 15px;
+    margin: 0;
+}
+
+.instagram-icon {
+    margin-left: 5px;
+}
+
+.winner-information {
+    margin-top: 1rem;
+}
+
+
+
 .main-title {
     text-align: center;
     font-weight: bold;
     font-family: 'Switzer-black';
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.announcement-text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 .winner-container iframe {
     width: 100%;
-    height: auto;
     max-width: 100%;
 }
 
 @media (min-width: 750px) {
 
-    .winner-container iframe {
-        width: 100%;
-        height: auto;
-        max-width: 60%;
+    .results-section {
+        margin-top: 0.5rem;
     }
+
+    .winner-container iframe {
+        min-height: 250px;
+    }
+
+    .instagram-icon {
+        margin-left: 0;
+    }
+
+    .winner-information h5 {
+        margin-top: 0;
+        
+    }
+
+    .thanks-message {
+        font-size: 18px;
+        margin: 0.5rem 0;
+    }
+
+    .winner-information { 
+        width: 45%;
+        margin-top: 0;
+    }
+    
+
+    .winner-container iframe {
+        width: 55%;
+        height: auto;
+        max-width: 55%;
+    }
+
     .main-title {
         font-size: 30px;
+        margin-bottom: 1.5rem;
       
     }
 
     .winner-container {
      
         flex-direction: row;
-        gap: 3rem;
+        gap: 2rem;
     }
     .social-media-container {
       flex-direction: row;
       justify-content: center;
       gap: 3rem;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .announcement-text {
+        font-size: 16px;
     }
 }
 

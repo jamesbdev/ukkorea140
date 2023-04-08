@@ -29,6 +29,7 @@
     .header-date-container {
         display: flex;
         gap: 2rem;
+        margin-top: 1rem;
     }
 }
 
